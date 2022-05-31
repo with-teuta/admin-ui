@@ -31,7 +31,7 @@ const Sidebar = () => {
         
       },
     }
-      axios.post(logoutUrl, requestOptions).then(
+      axios.post(logoutUrl,{}, requestOptions).then(
         response => {
           if (
             response.data.status === 'success'
