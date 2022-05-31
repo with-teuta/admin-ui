@@ -111,10 +111,12 @@ const Sidebar = () => {
             <span
             onClick={handleList}>Profile</span>
           </li>
-          <li>
+          <li 
+            onClick={handleLogout}
+          >
             <ExitToAppIcon className="icon" />
             <span
-            onClick={handleLogout}
+            
             >Logout</span>
           </li>
         </ul>
